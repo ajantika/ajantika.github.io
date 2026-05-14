@@ -94,7 +94,7 @@ I treat **AI as an operating partner**, not a buzzword. I use OpenCode and Winds
 
 ## 📬 Currently Exploring
 
-Senior/Lead roles in **Data Product Management**, **Technical Product Management**, **AI Product Management**, and **Product Analytics**, particularly at companies where data and AI are core to the product.
+Lead roles in **Data Product Management**, **Technical Product Management**, **AI Product Management**, and **Product Analytics**, particularly at companies where data and AI are core to the product.
 
 **Reach out:** [ajantikapal@gmail.com](mailto:ajantikapal@gmail.com) · [LinkedIn](https://linkedin.com/in/ajantika-paul) · Livermore, CA · Open to remote
 
