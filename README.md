@@ -1,11 +1,11 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ajantika--paul-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ajantika-paul)
 [![Email](https://img.shields.io/badge/Email-ajantikapal%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ajantikapal@gmail.com)
 [![Open to Work](https://img.shields.io/badge/Open_to-Data_%26_AI_PM_Roles-22c55e?style=flat-square&logo=checkmarx&logoColor=white)](mailto:ajantikapal@gmail.com)
-![Location](https://img.shields.io/badge/📍_Livermore_CA-Remote_Friendly-6366f1?style=flat-square)
+![Location](https://img.shields.io/badge/📍_Livermore_CA-6366f1?style=flat-square)
 
 **Lead Product Data Analyst @ Cloudflare** · Data Products & AI Systems
 
-I build AI-powered data products that make complex analytics accessible to non-technical teams. Currently shipping LLM-based analytics tools, governance frameworks, and self-service tooling for 10,000+ business accounts at Cloudflare.
+I design and ship AI-powered data products that turn usage signals into revenue intelligence — owned end-to-end, from roadmap to adoption.
 
 ---
 
@@ -29,17 +29,23 @@ I build AI-powered data products that make complex analytics accessible to non-t
 [![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-ajantika--analytics--ai.streamlit.app-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://ajantika-analytics-ai.streamlit.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-analytics--ai--skill--system-181717?style=flat-square&logo=github)](https://github.com/ajantika/analytics-ai-skill-system)
 
-**A conversational analytics product that lets non-technical teams self-serve business insights across 4 domains.**
+**The problem:** Analysts at Cloudflare spent 3–4 hours/week fielding the same ad hoc questions from sales, marketing, HR, and customer success — "what's our pipeline coverage?", "which agents are underperforming?", "are we hitting SLA?" Non-technical stakeholders couldn't get answers without filing a request.
 
-Built using Claude and MCP. Each domain has a YAML knowledge base encoding KPIs, definitions, and business logic. Queries route to the correct domain context, so answers stay accurate to how each team defines its own metrics.
+**What it does:** A conversational analytics product where a business user types a plain-English question, the system automatically identifies which domain it belongs to (Product, Marketing, Sales, HR, or Support), retrieves the structured knowledge base for that domain, and returns a precise answer with real figures — in seconds, with no SQL or analyst intervention needed.
 
-> 💡 **Impact:** ~$216K in annual productivity value · Non-technical teams get answers in seconds · Analytics team shifted to strategic work
+```
+User question → Domain classifier → YAML knowledge base → Llama 3.1 → Direct answer with real numbers
+```
+
+Each domain encodes KPIs, metric definitions, and business logic in YAML — so answers stay accurate to how each team defines its own metrics, not a generic interpretation.
+
+> 💡 **Impact:** ~$216K in annual productivity value · 5 domains live · Analytics team redirected to strategic work
 
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square)
 ![MCP](https://img.shields.io/badge/MCP-6366f1?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq_+_Llama_3.1-000000?style=flat-square)
 ![YAML](https://img.shields.io/badge/YAML-CB171E?style=flat-square)
 
 ---
@@ -49,43 +55,24 @@ Built using Claude and MCP. Each domain has a YAML knowledge base encoding KPIs,
 [![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-ajantika--customer--360.streamlit.app-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://ajantika-customer-360.streamlit.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-customer--product--360--platform-181717?style=flat-square&logo=github)](https://github.com/ajantika/customer-product-360-platform)
 
-**A self-service data product unifying product usage, segmentation, and monetization data for 10,000+ business accounts.**
+**The problem:** Pricing, product, and customer success teams each had their own data cuts — product usage in one tool, MRR in another, segmentation in a spreadsheet. No one had a single view of a customer's health, utilization, or expansion potential. Surfacing a revenue opportunity meant waiting for an analyst.
 
-Owned product roadmap and 0→1 delivery. Aligned engineering, analytics, and business stakeholders on roadmap priorities and delivery trade-offs through agile sprints. Drove self-service adoption across pricing, product, and customer success teams.
+**What it does:** A self-service analytics platform that unifies product usage, subscription data, and monetization signals across 10,000+ business accounts into a single browsable surface. Three core views:
 
-> 💡 **Impact:** Surfaced a $1.4M MRR recovery opportunity · Contributed to a 24% YoY MRR increase
+- **Customer 360** — per-account drilldown showing which products are over/under-utilized vs. their plan limit, month-over-month usage trends, regional distribution, and an AI panel for natural-language questions about that account
+- **Product 360** — per-product view showing adoption rates, top customers by usage, regional spread, and MoM aggregate trends
+- **Cohort analysis** — segments accounts into upsell candidates (over-utilized + growing), churn risk (under-utilized + declining), and MRR-at-risk buckets — with exportable slides for QBRs
+
+A sales rep can open the app, search for an account, see that a customer is consuming 140% of their API Gateway plan limit, and walk into a renewal conversation with the right expansion pitch — without filing an analytics request.
+
+> 💡 **Impact:** Surfaced a $1.4M MRR recovery opportunity · Contributed to a 24% YoY MRR increase · Self-serve adoption across pricing, product, and CS teams
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
 ![dbt](https://img.shields.io/badge/dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
 ![BigQuery](https://img.shields.io/badge/BigQuery-4285F4?style=flat-square&logo=googlebigquery&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-
----
-
-### 🤖 Enterprise AI Knowledge Product
-
-**An internal AI product integrating wiki, travel policy, and operational systems via MCP.**
-
-Designed and launched to automate repetitive support across 5,000 employees and 1,000 new hires. Made the call on which integrations to ship first to maximize early adoption.
-
-> 💡 **Impact:** 15,000+ annual queries · ~$200K eliminated in support costs · 150+ workdays recovered for the support team
-
-![MCP](https://img.shields.io/badge/MCP-6366f1?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![LLM](https://img.shields.io/badge/LLM_Integrations-black?style=flat-square)
-
----
-
-## 🛠️ How I work
-
-I treat **AI as an operating partner**, not a buzzword. I use Claude Code and Windsurf to compress multi-week build cycles into days, shipping 5+ production AI products in the last year.
-
-1. **Lead with discovery** — Talk to actual users before writing a line of code.
-2. **Prototype in days, not weeks** — AI-augmented build cycles let me test ideas fast.
-3. **Ship narrow, expand on adoption** — Start with one use case, earn the right to scale.
-4. **Codify business logic as governance** — Every metric has an owner.
 
 ---
 
@@ -142,7 +129,7 @@ I treat **AI as an operating partner**, not a buzzword. I use Claude Code and Wi
 
 ## 📬 Currently exploring
 
-Senior/Lead roles in **Data Product Management**, **Technical Product Management**, **AI Product Management**, and **Product Analytics** — particularly at companies where data and AI are core to the product.
+Roles in **Data Product Management**, **Technical Product Management**, **AI Product Management**, and **Product Analytics** — particularly at companies where data and AI are core to the product.
 
 [![Email Me](https://img.shields.io/badge/Email-ajantikapal%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ajantikapal@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ajantika-paul)
