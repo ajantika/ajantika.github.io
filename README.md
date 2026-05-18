@@ -14,10 +14,10 @@ I design and ship AI-powered data products that turn usage signals into revenue 
 | | |
 |---|---|
 | 🏢 **10,000+** | business accounts served by data products I own |
-| 💰 **$1.4M** | MRR opportunity surfaced through product usage analysis |
+| 💰 **$3M+** | MRR opportunity surfaced through product usage analysis |
 | 📈 **24%** | YoY MRR increase supported by my KPI governance work |
 | 🤖 **$216K** | annual productivity value from AI tools I shipped |
-| 💬 **15,000+** | annual queries handled by an AI product I built |
+| 💬 **180,000+** | annual queries handled by an AI product I built |
 | 📅 **9+ years** | in analytics, data products, and AI tooling |
 
 ---
@@ -65,7 +65,7 @@ Each domain encodes KPIs, metric definitions, and business logic in YAML — so 
 
 A sales rep can open the app, search for an account, see that a customer is consuming 140% of their API Gateway plan limit, and walk into a renewal conversation with the right expansion pitch — without filing an analytics request.
 
-> 💡 **Impact:** Surfaced a $1.4M MRR recovery opportunity · Contributed to a 24% YoY MRR increase · Self-serve adoption across pricing, product, and CS teams
+> 💡 **Impact:** Surfaced a $3M+ MRR recovery opportunity · Contributed to a 24% YoY MRR increase · Self-serve adoption across pricing, product, and CS teams
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
