@@ -127,9 +127,9 @@ A sales rep can open the app, search for an account, see that a customer is cons
 
 ---
 
-## 📬 Currently exploring
+## 📬 Let's connect
 
-Roles in **Data Product Management**, **Technical Product Management**, **AI Product Management**, and **Product Analytics** — particularly at companies where data and AI are core to the product.
+Open to conversations about **data and AI product work** — especially with teams where data and AI are core to the product.
 
 [![Email Me](https://img.shields.io/badge/Email-ajantikapal%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ajantikapal@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ajantika-paul)
