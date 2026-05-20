@@ -5,7 +5,7 @@
 
 **Lead Product Data Analyst @ Cloudflare** · Data Products & AI Systems
 
-I design and ship AI-powered data products that turn usage signals into revenue intelligence — owned end-to-end, from roadmap to adoption.
+I design and ship AI-powered data products that turn usage signals into revenue intelligence, owned end-to-end, from roadmap to adoption.
 
 ---
 
@@ -29,15 +29,15 @@ I design and ship AI-powered data products that turn usage signals into revenue 
 [![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-ajantika--analytics--ai.streamlit.app-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://ajantika-analytics-ai.streamlit.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-analytics--ai--skill--system-181717?style=flat-square&logo=github)](https://github.com/ajantika/analytics-ai-skill-system)
 
-**The problem:** Analysts at Cloudflare spent 3–4 hours/week fielding the same ad hoc questions from sales, marketing, HR, and customer success — "what's our pipeline coverage?", "which agents are underperforming?", "are we hitting SLA?" Non-technical stakeholders couldn't get answers without filing a request.
+**The problem:** Analysts at Cloudflare spent 3–4 hours/week fielding the same ad hoc questions from sales, marketing, HR, and customer success: "what's our pipeline coverage?", "which agents are underperforming?", "are we hitting SLA?" Non-technical stakeholders couldn't get answers without filing a request.
 
-**What it does:** A conversational analytics product where a business user types a plain-English question, the system automatically identifies which domain it belongs to (Product, Marketing, Sales, HR, or Support), retrieves the structured knowledge base for that domain, and returns a precise answer with real figures — in seconds, with no SQL or analyst intervention needed.
+**What it does:** A conversational analytics product where a business user types a plain-English question, the system automatically identifies which domain it belongs to (Product, Marketing, Sales, HR, or Support), retrieves the structured knowledge base for that domain, and returns a precise answer with real figures, in seconds, with no SQL or analyst intervention needed.
 
 ```
 User question → Domain classifier → YAML knowledge base → Llama 3.1 → Direct answer with real numbers
 ```
 
-Each domain encodes KPIs, metric definitions, and business logic in YAML — so answers stay accurate to how each team defines its own metrics, not a generic interpretation.
+Each domain encodes KPIs, metric definitions, and business logic in YAML, so answers stay accurate to how each team defines its own metrics, not a generic interpretation.
 
 > 💡 **Impact:** ~$216K in annual productivity value · 5 domains live · Analytics team redirected to strategic work
 
@@ -55,15 +55,15 @@ Each domain encodes KPIs, metric definitions, and business logic in YAML — so 
 [![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-ajantika--customer--360.streamlit.app-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://ajantika-customer-360.streamlit.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-customer--product--360--platform-181717?style=flat-square&logo=github)](https://github.com/ajantika/customer-product-360-platform)
 
-**The problem:** Pricing, product, and customer success teams each had their own data cuts — product usage in one tool, MRR in another, segmentation in a spreadsheet. No one had a single view of a customer's health, utilization, or expansion potential. Surfacing a revenue opportunity meant waiting for an analyst.
+**The problem:** Pricing, product, and customer success teams each had their own data cuts: product usage in one tool, MRR in another, segmentation in a spreadsheet. No one had a single view of a customer's health, utilization, or expansion potential. Surfacing a revenue opportunity meant waiting for an analyst.
 
 **What it does:** A self-service analytics platform that unifies product usage, subscription data, and monetization signals across 10,000+ business accounts into a single browsable surface. Three core views:
 
-- **Customer 360** — per-account drilldown showing which products are over/under-utilized vs. their plan limit, month-over-month usage trends, regional distribution, and an AI panel for natural-language questions about that account
-- **Product 360** — per-product view showing adoption rates, top customers by usage, regional spread, and MoM aggregate trends
-- **Cohort analysis** — segments accounts into upsell candidates (over-utilized + growing), churn risk (under-utilized + declining), and MRR-at-risk buckets — with exportable slides for QBRs
+- **Customer 360**: per-account drilldown showing which products are over/under-utilized vs. their plan limit, month-over-month usage trends, regional distribution, and an AI panel for natural-language questions about that account
+- **Product 360**: per-product view showing adoption rates, top customers by usage, regional spread, and MoM aggregate trends
+- **Cohort analysis**: segments accounts into upsell candidates (over-utilized + growing), churn risk (under-utilized + declining), and MRR-at-risk buckets, with exportable slides for QBRs
 
-A sales rep can open the app, search for an account, see that a customer is consuming 140% of their API Gateway plan limit, and walk into a renewal conversation with the right expansion pitch — without filing an analytics request.
+A sales rep can open the app, search for an account, see that a customer is consuming 140% of their API Gateway plan limit, and walk into a renewal conversation with the right expansion pitch, without filing an analytics request.
 
 > 💡 **Impact:** Surfaced a $3M+ MRR recovery opportunity · Contributed to a 24% YoY MRR increase · Self-serve adoption across pricing, product, and CS teams
 
@@ -80,12 +80,12 @@ A sales rep can open the app, search for an account, see that a customer is cons
 
 | Company | Role | Period |
 |---------|------|--------|
-| ☁️ **Cloudflare** | Lead Product Data Analyst — Data Products & AI Systems | Nov 2022 → Present |
+| ☁️ **Cloudflare** | Lead Product Data Analyst, Data Products & AI Systems | Nov 2022 → Present |
 | 🟣 **Sprinklr** | Senior Data Analyst | Sep 2021 → Oct 2022 |
 | 🔵 **Commvault** | Data Science Analyst | Jun 2019 → Aug 2021 |
 | 🟠 **Equinix** | Workforce Data Analyst Intern | Jun 2018 → Dec 2018 |
 
-🎓 **MS, Information Technology & Analytics** — Rutgers Business School
+🎓 **MS, Information Technology & Analytics**, Rutgers Business School
 
 ---
 
@@ -129,7 +129,7 @@ A sales rep can open the app, search for an account, see that a customer is cons
 
 ## 📬 Let's connect
 
-Open to conversations about **data and AI product work** — especially with teams where data and AI are core to the product.
+Open to conversations about **data and AI product work**, especially with teams where data and AI are core to the product.
 
 [![Email Me](https://img.shields.io/badge/Email-ajantikapal%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ajantikapal@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Let's_connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ajantika-paul)
