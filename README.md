@@ -55,19 +55,19 @@ Each domain encodes KPIs, metric definitions, and business logic in YAML, so ans
 [![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-paygo--growth--retention--360.streamlit.app-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://paygo-growth-retention-360.streamlit.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-paygo--growth--retention--360-181717?style=flat-square&logo=github)](https://github.com/ajantika/paygo-growth-retention-360)
 
-**The problem:** Revenue, product, and CS teams in a usage-based business need to answer one deceptively simple question every month: *"How is our PayGo base actually growing, and what should we do about it?"* But the answer is scattered across MRR systems, billing exports, and product-usage logs — and standard NRR gets artificially inflated by self-serve → Enterprise tier jumps, hiding whether the existing base is really growing.
+**The problem:** Revenue, product, and CS teams in a usage-based business need to answer one deceptively simple question every month: *"How is our PayGo base actually growing, and what should we do about it?"* The answer is usually scattered across MRR systems, billing exports, and product usage logs, and standard NRR gets artificially inflated by self-serve to Enterprise tier jumps, hiding whether the existing base is really growing.
 
 **What it does:** A self-serve partner-reporting product that turns a usage-based customer base into an honest, end-to-end revenue lifecycle view. Seven pages, all reading from one canonical metric layer:
 
-- **Overview** — Monthly Proceeds (MRR), ARPA, NRR / GRR, tier-conversion rate — every KPI hover-explained
-- **Revenue Lifecycle** — the MRR bridge waterfall (new / expansion / reactivation / tier conversion / contraction / churn), balancing to ~1e-10 every month
-- **Cohort Retention** — signup-month × months-since-signup heatmap + survival curves
-- **Tier Conversion** — PayGo → Enterprise funnel with time-to-convert distribution and MRR-jump multiples
-- **Churn Diagnostics** — by reason, plan, segment, with the headline annual-vs-monthly retention insight
-- **Feature Adoption** — entry-product distribution, top adoption journeys (Sankey), products-per-account
-- **Account 360** — per-account drilldown with one-click branded PPTX export
+- **Overview**: Monthly Proceeds (MRR), ARPA, NRR / GRR, tier-conversion rate, with every KPI hover-explained
+- **Revenue Lifecycle**: the MRR bridge waterfall (new, expansion, reactivation, tier conversion, contraction, churn), balancing to ~1e-10 every month
+- **Cohort Retention**: signup-month and months-since-signup heatmap plus survival curves
+- **Tier Conversion**: PayGo to Enterprise funnel with time-to-convert distribution and MRR jump multiples
+- **Churn Diagnostics**: by reason, plan, and segment, with the headline annual vs monthly retention insight
+- **Feature Adoption**: entry-product distribution, top adoption journeys (Sankey), products per account
+- **Account 360**: per-account drilldown with one-click branded PPTX export
 
-The key methodology choice: MRR is split into **plan** (subscription) and **usage** (consumption), and **tier conversion is separated from organic expansion** so NRR reflects how the existing base is actually growing on its own — not how big the contract jumps when someone graduates. 100% synthetic data, seed-pinned for reproducibility.
+The key methodology choice: MRR is split into **plan** (subscription) and **usage** (consumption), and **tier conversion is separated from organic expansion** so NRR reflects how the existing base is actually growing on its own, not how big the contract jumps when someone graduates. 100% synthetic data, seed-pinned for reproducibility.
 
 > 💡 **Impact:** 105% NRR (tier-conversion-adjusted) · 95% GRR · MRR bridge balances to ~1e-10 every month · 7 pages tied to one canonical metric layer
 
