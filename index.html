@@ -125,6 +125,29 @@
       background: #ede9fe; color: #6d28d9;
     }
 
+    /* ── What I do ── */
+    .whatido-list { display: flex; flex-direction: column; }
+    .whatido-row {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 1rem 2rem;
+      padding: 1.25rem 0; border-bottom: 1px solid #e5e7eb;
+      align-items: baseline;
+    }
+    .whatido-row:first-child { border-top: 1px solid #e5e7eb; }
+    .whatido-do { font-size: 1.35rem; font-weight: 800; color: #1a1a2e; letter-spacing: -0.02em; }
+    .whatido-tag {
+      font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em;
+      text-transform: uppercase; color: #6b7280;
+    }
+
+    /* ── Framework callout ── */
+    .framework {
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      background: #eef2ff; border: 1px solid #c7d2fe; color: #4338ca;
+      padding: 0.5rem 0.9rem; border-radius: 8px;
+      font-size: 0.84rem; font-weight: 600; margin-bottom: 1.1rem;
+      line-height: 1.5;
+    }
+
     /* ── Background / Experience ── */
     .exp-list { display: flex; flex-direction: column; gap: 0; }
     .exp-item {
@@ -199,6 +222,8 @@
       nav .links { display: none; }
       .exp-item { grid-template-columns: 1fr; }
       .exp-period { text-align: left; }
+      .whatido-row { grid-template-columns: 1fr; gap: 0.25rem; padding: 1rem 0; }
+      .whatido-do { font-size: 1.15rem; }
     }
   </style>
 </head>
@@ -207,6 +232,7 @@
 <nav>
   <span class="brand">Ajantika Paul</span>
   <div class="links">
+    <a href="#whatido">What I do</a>
     <a href="#projects">Projects</a>
     <a href="#background">Background</a>
     <a href="#stack">Stack</a>
@@ -225,6 +251,33 @@
     </a>
     <a href="mailto:ajantikapal@gmail.com" class="badge badge-mail">✉ ajantikapal@gmail.com</a>
 <span class="badge badge-loc">📍 Livermore, CA</span>
+  </div>
+</div>
+
+<!-- What I do -->
+<div class="section" id="whatido">
+  <h2 class="section-title">✦ What I do</h2>
+  <div class="whatido-list">
+    <div class="whatido-row">
+      <div class="whatido-do">Turn usage into revenue</div>
+      <div class="whatido-tag">Product data as a growth system</div>
+    </div>
+    <div class="whatido-row">
+      <div class="whatido-do">Build AI analytics systems</div>
+      <div class="whatido-tag">Useful, explainable, conversational</div>
+    </div>
+    <div class="whatido-row">
+      <div class="whatido-do">Define how teams measure</div>
+      <div class="whatido-tag">KPI governance &amp; metric frameworks</div>
+    </div>
+    <div class="whatido-row">
+      <div class="whatido-do">Unify the customer picture</div>
+      <div class="whatido-tag">One view across accounts &amp; products</div>
+    </div>
+    <div class="whatido-row">
+      <div class="whatido-do">Own data products 0→1</div>
+      <div class="whatido-tag">Roadmap to architecture to adoption</div>
+    </div>
   </div>
 </div>
 
@@ -253,7 +306,8 @@
     </div>
     <p class="project-desc">A self-service analytics platform that unifies a <strong>Customer 360</strong> view (account demographics, segmentation, contract terms, health) with a <strong>Product 360</strong> view (feature adoption, plan utilization, consumption trends) across 10,000+ business accounts into one browsable surface.</p>
     <p class="project-body">Before this platform, pricing, product, and CS teams each worked from their own data. Usage lived in one tool, MRR in another, segmentation in a spreadsheet. No single place to see a customer's health, utilization, or expansion potential. The <strong>Customer 360</strong> view stitches together account demographics, segmentation, contract terms, and health scores into one record per account. The <strong>Product 360</strong> view exposes feature adoption, plan utilization, and consumption trends down to the SKU and pricing dimension. A sales rep can open the app, find an account, and instantly see which products that customer is consuming at 140% of their plan limit, then walk into a renewal with the right expansion pitch and no analyst request needed. Owned the product roadmap and 0→1 delivery across engineering, analytics, and business stakeholders. <strong>Also owned the end-to-end data architecture</strong>: source ingestion, dbt models, the canonical customer/product semantic layer, and the serving layer that keeps every downstream consumer (Streamlit app, Tableau, Salesforce) consistent.</p>
-    <div class="impact-box">💡 Surfaced a $3M+ MRR recovery opportunity &nbsp;·&nbsp; Contributed to a 24% YoY MRR increase &nbsp;·&nbsp; Self-serve adoption across pricing, product, and CS</div>
+    <div class="framework">🧩 Framework: <strong>Canonical 360 Semantic Layer</strong> — one customer/product source of truth feeding every downstream tool</div>
+    <div class="impact-box">💡 Surfaced a $3M+ MRR recovery opportunity (unmonetized usage above plan limits) &nbsp;·&nbsp; Contributed to a 24% YoY MRR increase &nbsp;·&nbsp; Self-serve adoption across pricing, product, and CS</div>
     <div class="tech-tags">
       <span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Plotly</span><span class="tag">dbt</span><span class="tag">BigQuery</span><span class="tag">Snowflake</span>
     </div>
@@ -267,6 +321,7 @@
     </div>
     <p class="project-desc">Owned KPI development and revenue analytics for a self-serve PAYGO (pay-as-you-go) segment that made up roughly 90% of the customer base. Built revenue attribution frameworks tracking acquisition, conversion, retention, and churn cohorts. Informed product decisions contributing to a 24% YoY MRR increase.</p>
     <p class="project-body">The linked demo is a public, portfolio-shaped version of the same craft: a partner-reporting product for a usage-based PayGo customer base, covering the entire revenue lifecycle (new, expansion, contraction, churn, tier conversion), a PayGo to Enterprise graduation funnel with time-to-convert, churn-reason diagnostics, cohort retention, and per-account drilldowns, all tied to one canonical metric layer. The dashboard splits MRR into <strong>plan vs usage</strong> (subscription proceeds vs consumption), runs an <strong>MRR bridge</strong> that ties out every month, and isolates <strong>tier conversion</strong> from organic expansion so NRR isn't artificially inflated by self-serve to Enterprise jumps. A <strong>cohort retention heatmap</strong> shows signup-month cohorts across months since signup so PMs can spot structural drop-offs. Native PPTX export on the Overview and Account 360 pages produces a branded executive deck and per-account report in one click. <strong>Every metric has a definition tooltip</strong>, every page reads from a single semantic layer (<code>lib/metrics.py</code>), and every dollar movement is named and accounted for.</p>
+    <div class="framework">🧩 Framework: <strong>MRR Bridge + Plan-vs-Usage model</strong> — every dollar of movement named and tied out month over month</div>
     <div class="impact-box">💡 ~90% of the customer base · Contributed to 24% YoY MRR increase · End-to-end revenue lifecycle: acquisition, conversion, retention, churn</div>
     <div class="tech-tags">
       <span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Plotly</span><span class="tag">pandas</span><span class="tag">python-pptx</span><span class="tag">PyArrow</span>
@@ -281,7 +336,8 @@
     </div>
     <p class="project-desc">A conversational analytics product that routes plain-English questions across five business domains (Product, Marketing, Sales, HR, and Customer Support) and returns precise, data-backed answers instantly.</p>
     <p class="project-body">Analysts were spending 3 to 4 hours per week answering the same ad hoc questions from across the business. This product eliminates that. A user types any question in plain English, the system classifies the domain automatically, retrieves the structured YAML knowledge base for that team, and returns a direct answer with real figures. No SQL, no wait, no analyst needed. Each domain encodes its own KPI definitions and business logic, so answers stay accurate to how each team actually measures success. <strong>Owned the end-to-end data architecture</strong>: the canonical KPI taxonomy, the per-domain YAML knowledge schema, the retrieval and routing layer, and the evaluation harness that keeps answers trustworthy as new domains are added.</p>
-    <div class="impact-box">💡 ~$216K in annual productivity value &nbsp;·&nbsp; 5 domains live &nbsp;·&nbsp; Analytics team redirected to strategic work</div>
+    <div class="framework">🧩 Framework: <strong>Domain-Routing + Eval Harness</strong> — add a new domain as a skill, not a rebuild</div>
+    <div class="impact-box">💡 ~$216K in annual productivity value (≈3–4 analyst hrs/week reclaimed × loaded cost) &nbsp;·&nbsp; 5 domains live &nbsp;·&nbsp; Analytics team redirected to strategic work</div>
     <div class="tech-tags">
       <span class="tag">Claude</span><span class="tag">MCP</span><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Groq + Llama 3.1</span><span class="tag">YAML</span>
     </div>
