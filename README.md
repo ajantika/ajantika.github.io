@@ -50,26 +50,28 @@ Each domain encodes KPIs, metric definitions, and business logic in YAML, so ans
 
 ---
 
-### 📈 PayGo Growth & Retention 360
+### 📈 PayGo Customer Analytics & Lifecycle Measurement
 
 [![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-paygo--growth--retention--360.streamlit.app-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://paygo-growth-retention-360.streamlit.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-paygo--growth--retention--360-181717?style=flat-square&logo=github)](https://github.com/ajantika/paygo-growth-retention-360)
 
-**The problem:** Revenue, product, and CS teams in a usage-based business need to answer one deceptively simple question every month: *"How is our PayGo base actually growing, and what should we do about it?"* The answer is usually scattered across MRR systems, billing exports, and product usage logs, and standard NRR gets artificially inflated by self-serve to Enterprise tier jumps, hiding whether the existing base is really growing.
+**The role:** Owned KPI development and revenue analytics for Cloudflare's self-serve PAYGO (pay-as-you-go) segment, roughly 90% of the customer base. Built revenue attribution frameworks tracking acquisition, conversion, retention, and churn cohorts. Informed product decisions contributing to a 24% YoY MRR increase.
 
-**What it does:** A self-serve partner-reporting product that turns a usage-based customer base into an honest, end-to-end revenue lifecycle view. Seven pages, all reading from one canonical metric layer:
+**The problem this work solves:** Revenue, product, and CS teams in a usage-based business need to answer one deceptively simple question every month: *"How is our PayGo base actually growing, and what should we do about it?"* The answer is usually scattered across MRR systems, billing exports, and product usage logs, and standard NRR gets artificially inflated by self-serve to Enterprise tier jumps, hiding whether the existing base is really growing.
+
+**What the linked demo shows:** A public, portfolio-shaped version of the same craft. A partner-reporting product that turns a usage-based customer base into an honest, end-to-end revenue lifecycle view. Seven pages, all reading from one canonical metric layer:
 
 - **Overview**: Monthly Proceeds (MRR), ARPA, NRR / GRR, tier-conversion rate, with every KPI hover-explained
-- **Revenue Lifecycle**: the MRR bridge waterfall (new, expansion, reactivation, tier conversion, contraction, churn), balancing to ~1e-10 every month
+- **Revenue Lifecycle**: the MRR bridge waterfall (new, expansion, reactivation, tier conversion, contraction, churn), balancing every month
 - **Cohort Retention**: signup-month and months-since-signup heatmap plus survival curves
 - **Tier Conversion**: PayGo to Enterprise funnel with time-to-convert distribution and MRR jump multiples
 - **Churn Diagnostics**: by reason, plan, and segment, with the headline annual vs monthly retention insight
 - **Feature Adoption**: entry-product distribution, top adoption journeys (Sankey), products per account
 - **Account 360**: per-account drilldown with one-click branded PPTX export
 
-The key methodology choice: MRR is split into **plan** (subscription) and **usage** (consumption), and **tier conversion is separated from organic expansion** so NRR reflects how the existing base is actually growing on its own, not how big the contract jumps when someone graduates. 100% synthetic data, seed-pinned for reproducibility.
+The key methodology choice: MRR is split into **plan** (subscription) and **usage** (consumption), and **tier conversion is separated from organic expansion** so NRR reflects how the existing base is actually growing on its own, not how big the contract jumps when someone graduates.
 
-> 💡 **Impact:** 105% NRR (tier-conversion-adjusted) · 95% GRR · MRR bridge balances to ~1e-10 every month · 7 pages tied to one canonical metric layer
+> 💡 **Impact:** ~90% of Cloudflare's customer base · Contributed to 24% YoY MRR increase · End-to-end revenue lifecycle: acquisition, conversion, retention, churn
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
