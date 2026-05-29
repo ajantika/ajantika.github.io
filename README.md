@@ -29,7 +29,7 @@ I design and ship AI-powered data products that turn usage signals into revenue 
 [![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-ajantika--analytics--ai.streamlit.app-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://ajantika-analytics-ai.streamlit.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-analytics--ai--skill--system-181717?style=flat-square&logo=github)](https://github.com/ajantika/analytics-ai-skill-system)
 
-**The problem:** Analysts at Cloudflare spent 3–4 hours/week fielding the same ad hoc questions from sales, marketing, HR, and customer success: "what's our pipeline coverage?", "which agents are underperforming?", "are we hitting SLA?" Non-technical stakeholders couldn't get answers without filing a request.
+**The problem:** Analysts on the team spent 3–4 hours/week fielding the same ad hoc questions from sales, marketing, HR, and customer success: "what's our pipeline coverage?", "which agents are underperforming?", "are we hitting SLA?" Non-technical stakeholders couldn't get answers without filing a request.
 
 **What it does:** A conversational analytics product where a business user types a plain-English question, the system automatically identifies which domain it belongs to (Product, Marketing, Sales, HR, or Support), retrieves the structured knowledge base for that domain, and returns a precise answer with real figures, in seconds, with no SQL or analyst intervention needed.
 
@@ -55,7 +55,7 @@ Each domain encodes KPIs, metric definitions, and business logic in YAML, so ans
 [![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-paygo--growth--retention--360.streamlit.app-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://paygo-growth-retention-360.streamlit.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-paygo--growth--retention--360-181717?style=flat-square&logo=github)](https://github.com/ajantika/paygo-growth-retention-360)
 
-**The role:** Owned KPI development and revenue analytics for Cloudflare's self-serve PAYGO (pay-as-you-go) segment, roughly 90% of the customer base. Built revenue attribution frameworks tracking acquisition, conversion, retention, and churn cohorts. Informed product decisions contributing to a 24% YoY MRR increase.
+**The role:** Owned KPI development and revenue analytics for a self-serve PAYGO (pay-as-you-go) segment that made up roughly 90% of the customer base. Built revenue attribution frameworks tracking acquisition, conversion, retention, and churn cohorts. Informed product decisions contributing to a 24% YoY MRR increase.
 
 **The problem this work solves:** Revenue, product, and CS teams in a usage-based business need to answer one deceptively simple question every month: *"How is our PayGo base actually growing, and what should we do about it?"* The answer is usually scattered across MRR systems, billing exports, and product usage logs, and standard NRR gets artificially inflated by self-serve to Enterprise tier jumps, hiding whether the existing base is really growing.
 
@@ -71,7 +71,7 @@ Each domain encodes KPIs, metric definitions, and business logic in YAML, so ans
 
 The key methodology choice: MRR is split into **plan** (subscription) and **usage** (consumption), and **tier conversion is separated from organic expansion** so NRR reflects how the existing base is actually growing on its own, not how big the contract jumps when someone graduates.
 
-> 💡 **Impact:** ~90% of Cloudflare's customer base · Contributed to 24% YoY MRR increase · End-to-end revenue lifecycle: acquisition, conversion, retention, churn
+> 💡 **Impact:** ~90% of the customer base · Contributed to 24% YoY MRR increase · End-to-end revenue lifecycle: acquisition, conversion, retention, churn
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
