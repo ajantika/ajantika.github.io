@@ -3,9 +3,9 @@
 [![Open to Work](https://img.shields.io/badge/Open_to-Data_%26_AI_PM_Roles-22c55e?style=flat-square&logo=checkmarx&logoColor=white)](mailto:ajantikapal@gmail.com)
 ![Location](https://img.shields.io/badge/📍_Livermore_CA-6366f1?style=flat-square)
 
-**Lead Product Data Analyst @ Cloudflare** · Data Products & AI Systems
+**Lead Product Data Analyst @ Cloudflare** · Data Products, Analytics Platforms & AI
 
-I design and ship AI-powered data products that turn usage signals into revenue intelligence, owned end-to-end, from roadmap to adoption.
+I build trusted data products that help Finance, Product, and GTM teams make better decisions at scale — from discovery and roadmap definition through adoption and measurable business impact.
 
 ---
 
