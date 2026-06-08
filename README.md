@@ -50,7 +50,7 @@ Each domain encodes KPIs, metric definitions, and business logic in YAML, so ans
 
 ---
 
-### 📈 PayGo Customer Analytics & Lifecycle Measurement
+### 📈 Customer Analytics & Lifecycle
 
 [![Live Demo](https://img.shields.io/badge/🔗_Live_Demo-paygo--growth--retention--360.streamlit.app-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://paygo-growth-retention-360.streamlit.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-paygo--growth--retention--360-181717?style=flat-square&logo=github)](https://github.com/ajantika/paygo-growth-retention-360)
