@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ajantika Paul | Lead Product Data Analyst</title>
-  <meta name="description" content="Ajantika Paul, Lead Product Data Analyst at Cloudflare. I build trusted data products that help Finance, Product, and GTM teams make better decisions at scale.">
+  <meta name="description" content="Ajantika Paul, Lead Product Data Analyst. I build AI analytics systems and trusted data products that help Finance, Product, and GTM teams make better decisions at scale.">
   <meta property="og:title" content="Ajantika Paul | Lead Product Data Analyst">
-  <meta property="og:description" content="Building AI-powered data products at Cloudflare. $3M+ MRR surfaced. 10,000+ accounts. Open to Lead/Principal Analytics & Data PM roles.">
+  <meta property="og:description" content="AI analytics systems, data products, and governed metrics. $3M+ MRR surfaced. 10,000+ accounts. Open to AI PM, Data Product, and Analytics leadership roles.">
   <meta property="og:url" content="https://ajantika.github.io/">
   <meta property="og:type" content="website">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -243,7 +243,7 @@
 
 <div class="hero">
   <h1>Ajantika Paul</h1>
-  <div class="role">Lead Product Data Analyst @ Cloudflare · Data Products, Analytics & AI Systems</div>
+  <div class="role">Lead Product Data Analyst · Data Products, Analytics &amp; AI Systems</div>
   <div class="tagline">I build trusted data products that help Finance, Product, and GTM teams make better decisions at scale — from discovery and roadmap definition through adoption and measurable business impact.</div>
   <div class="badge-row">
     <a href="https://linkedin.com/in/ajantika-paul" class="badge badge-li" target="_blank" rel="noopener noreferrer">
@@ -335,10 +335,10 @@
       <a href="https://ajantika-analytics-ai.streamlit.app/" class="btn btn-demo" target="_blank" rel="noopener noreferrer">🔗 Live Demo</a>
       <a href="https://github.com/ajantika/analytics-ai-skill-system" class="btn btn-gh" target="_blank" rel="noopener noreferrer">⌥ GitHub</a>
     </div>
-    <p class="project-desc">A governed GenAI analytics assistant that routes plain-English business questions across 5 domains — Product, Sales, Marketing, People, and Support — and generates structured, metric-grounded answers with transparent evaluation and failure analysis.</p>
-    <p class="project-body">Built to address a common analytics problem: analysts repeatedly spend time answering business questions whose metrics, definitions, and logic already exist. The system uses a <strong>keyword-based domain router</strong> to identify the relevant analytics domain, loads its governed YAML skill, and supplies that context to the LLM to generate an <strong>Insight → Why it matters → Recommended action</strong> response.<br><br>Each domain skill keeps KPI definitions, formulas, owners, interpretation, and business logic separate from application code, making the framework extensible as new metrics and domains are introduced.<br><br>To make answer quality observable rather than assumed, the system includes an <strong>evaluation layer</strong> covering numeric grounding and metric recognition through deterministic checks, plus heuristic checks for relevance and unsupported claims. A labeled routing evaluation set also surfaces failure cases and limitations rather than hiding them.<br><br><strong>Built end-to-end:</strong> governed metric taxonomy and YAML skill schema, multi-domain routing, context orchestration, structured LLM responses, evaluation framework, failure analysis, and a prototype-to-production architecture covering semantic routing, warehouse integration, RBAC, observability, and regression evaluation.</p>
+    <p class="project-desc">A governed, multi-domain AI analytics assistant designed to reduce repetitive analyst requests — routing plain-English business questions across 5 domains, generating structured metric-grounded answers, and measuring answer quality through an evaluation framework built to surface failures, not just successes.</p>
+    <p class="project-body"><strong>Problem and workflow diagnosis:</strong> Analytics teams repeatedly handle the same business questions — utilization breakdowns, pipeline coverage, churn rates — where the KPI definitions and business logic already exist. I mapped the existing request workflow: business teams asked via Slack → analyst located the right definition → queried → formatted → shared. The bottleneck was the translation layer between business question and governed metric, not the data itself.<br><br><strong>What I designed:</strong> A multi-domain skill architecture where each business domain (Product, Sales, Marketing, People, Support) has its own governed YAML skill file — containing pre-validated KPI definitions, metric owners, business logic, interpretation guidance, and business-reviewed sample Q&amp;A. Questions are automatically routed to the right skill, grounding the LLM's response in vetted definitions rather than allowing it to define metrics freely. Responses are structured as <strong>Insight → Why it matters → Recommended action</strong>, consistently useful rather than freeform. The router surfaces ambiguous questions explicitly rather than silently guessing a domain.<br><br><strong>Governance by design:</strong> Metric definitions, formulas, and owners live in versioned skill files, separate from application code. Adding a new domain or updating a metric requires a business-reviewed skill change — not a code change. This makes the system auditable, extensible, and safe to hand off to business teams without re-engineering.<br><br><strong>Evaluation framework:</strong> Built to make answer quality observable rather than assumed. Four dimensions: numeric grounding and metric recognition (deterministic — verifiable against governed context), answer relevance and unsupported claims (heuristic). A labelled routing evaluation set measures accuracy and documents failure cases with root cause — a substring matching issue and shared-terminology weighting that favors one domain over another. These failures directly informed the next improvement path: semantic or token-aware routing. Failures are shown, not hidden — an intentional product design decision to build trust before expanding scope or autonomy.<br><br><strong>Built end-to-end:</strong> business problem definition, governed metric taxonomy and YAML skill schema, multi-domain router, LLM context orchestration, structured response parsing, evaluation framework, failure analysis, and a prototype-to-production architecture roadmap covering semantic routing, warehouse integration, RBAC, observability, and regression evaluation.</p>
     <div class="framework">🧩 Framework: <strong>Domain-Routing + Eval Harness</strong> — add a new domain as a skill, not a rebuild</div>
-    <div class="impact-box">5 domains live &nbsp;·&nbsp; 81% baseline routing accuracy &nbsp;·&nbsp; 17 unit tests &nbsp;·&nbsp; Failures shown, not hidden</div>
+    <div class="impact-box">💡 Reduces repetitive analyst requests for routine business questions &nbsp;·&nbsp; 5 domains live &nbsp;·&nbsp; 81% baseline routing accuracy &nbsp;·&nbsp; Evaluation framework with documented failure analysis &nbsp;·&nbsp; $216K estimated annual productivity value</div>
     <div class="tech-tags">
       <span class="tag">Groq / Llama 3.1</span><span class="tag">Keyword Routing</span><span class="tag">Eval Framework</span><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">YAML</span>
     </div>
@@ -355,7 +355,7 @@
         <div class="exp-company">☁️ Cloudflare</div>
         <div class="exp-role">Lead Product Data Analyst, Data Products &amp; AI Systems</div>
       </div>
-      <div class="exp-period">Nov 2022 → Present</div>
+      <div class="exp-period">Nov 2022 → Jun 2026</div>
     </div>
     <div class="exp-item">
       <div>
@@ -418,7 +418,7 @@
 <div class="section" id="contact">
   <div class="cta-box">
     <h2>📬 Let's connect</h2>
-    <p>Open to conversations about <strong>product analytics and data product roles</strong>, especially with teams where rigorous experimentation, KPI governance, and AI are core to how the product is built.</p>
+    <p>Open to conversations about <strong>AI Product Management, Data Product, and Product Analytics leadership roles</strong> — especially with teams building AI-native products where governance, measurement, and cross-functional rigor matter.</p>
     <div class="cta-buttons">
       <a href="mailto:ajantikapal@gmail.com" class="btn-cta btn-primary">✉ Email me</a>
       <a href="https://linkedin.com/in/ajantika-paul" class="btn-cta btn-secondary" target="_blank" rel="noopener noreferrer">LinkedIn</a>
