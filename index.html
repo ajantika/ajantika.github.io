@@ -300,6 +300,21 @@
   <h2 class="section-title">🚀 Featured Projects</h2>
 
   <div class="project-card">
+    <h3>🧠 Multi-Domain AI Analytics Skill System</h3>
+    <div class="project-links">
+      <a href="https://ajantika-analytics-ai.streamlit.app/" class="btn btn-demo" target="_blank" rel="noopener noreferrer">🔗 Live Demo</a>
+      <a href="https://github.com/ajantika/analytics-ai-skill-system" class="btn btn-gh" target="_blank" rel="noopener noreferrer">⌥ GitHub</a>
+    </div>
+    <p class="project-desc">A governed AI analytics assistant that routes plain-English business questions across 5 domains, generates metric-grounded answers, and evaluates response quality with transparent failure analysis.</p>
+    <p class="project-body"><strong>Problem:</strong> Analytics teams repeatedly answer routine business questions where KPI definitions and business logic already exist. The bottleneck is often translating the business question into the right governed metric and interpretation.<br><br><strong>What I built:</strong> A multi-domain architecture across Product, Sales, Marketing, People, and Support. Each domain has a governed YAML skill containing KPI definitions, formulas, owners, and business logic. Questions are automatically routed to the relevant skill, which grounds the LLM context. Responses follow <strong>Insight → Why it matters → Recommended action</strong>, while ambiguous questions are surfaced rather than silently misrouted.<br><br><strong>Evaluation &amp; governance:</strong> Built deterministic checks for numeric grounding and metric recognition, plus heuristic checks for relevance and unsupported claims. A labelled routing evaluation set measures baseline performance and exposes failure cases and their root causes, creating a clear path toward token-aware and semantic routing.<br><br><strong>Built end-to-end:</strong> Problem definition · governed metric taxonomy · YAML skill architecture · domain routing · LLM orchestration · evaluation framework · failure analysis · prototype-to-production roadmap</p>
+    <div class="framework">🧩 Framework: <strong>Domain Routing + Eval Harness</strong> — add a new domain as a skill, not a rebuild</div>
+    <div class="impact-box">💡 5 domains · 72% baseline routing accuracy · transparent failure analysis · $216K estimated annual productivity value</div>
+    <div class="tech-tags">
+      <span class="tag">Groq / Llama 3.1</span><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">YAML</span><span class="tag">Keyword Routing</span><span class="tag">Eval Framework</span>
+    </div>
+  </div>
+
+  <div class="project-card">
     <h3>🏗️ Customer &amp; Product 360 Platform</h3>
     <div class="project-links">
       <a href="https://ajantika-customer-360.streamlit.app/" class="btn btn-demo" target="_blank" rel="noopener noreferrer">🔗 Live Demo</a>
@@ -326,21 +341,6 @@
     <div class="impact-box">💡 ~90% of the customer base · Contributed to 24% YoY MRR increase · End-to-end revenue lifecycle: acquisition, conversion, retention, churn</div>
     <div class="tech-tags">
       <span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">Plotly</span><span class="tag">pandas</span><span class="tag">python-pptx</span><span class="tag">PyArrow</span>
-    </div>
-  </div>
-
-  <div class="project-card">
-    <h3>🧠 Multi-Domain AI Analytics Skill System</h3>
-    <div class="project-links">
-      <a href="https://ajantika-analytics-ai.streamlit.app/" class="btn btn-demo" target="_blank" rel="noopener noreferrer">🔗 Live Demo</a>
-      <a href="https://github.com/ajantika/analytics-ai-skill-system" class="btn btn-gh" target="_blank" rel="noopener noreferrer">⌥ GitHub</a>
-    </div>
-    <p class="project-desc">A governed AI analytics assistant that routes plain-English business questions across 5 domains, generates metric-grounded answers, and evaluates response quality with transparent failure analysis.</p>
-    <p class="project-body"><strong>Problem:</strong> Analytics teams repeatedly answer routine business questions where KPI definitions and business logic already exist. The bottleneck is often translating the business question into the right governed metric and interpretation.<br><br><strong>What I built:</strong> A multi-domain architecture across Product, Sales, Marketing, People, and Support. Each domain has a governed YAML skill containing KPI definitions, formulas, owners, and business logic. Questions are automatically routed to the relevant skill, which grounds the LLM context. Responses follow <strong>Insight → Why it matters → Recommended action</strong>, while ambiguous questions are surfaced rather than silently misrouted.<br><br><strong>Evaluation &amp; governance:</strong> Built deterministic checks for numeric grounding and metric recognition, plus heuristic checks for relevance and unsupported claims. A labelled routing evaluation set measures baseline performance and exposes failure cases and their root causes, creating a clear path toward token-aware and semantic routing.<br><br><strong>Built end-to-end:</strong> Problem definition · governed metric taxonomy · YAML skill architecture · domain routing · LLM orchestration · evaluation framework · failure analysis · prototype-to-production roadmap</p>
-    <div class="framework">🧩 Framework: <strong>Domain Routing + Eval Harness</strong> — add a new domain as a skill, not a rebuild</div>
-    <div class="impact-box">💡 5 domains · 72% baseline routing accuracy · transparent failure analysis · $216K estimated annual productivity value</div>
-    <div class="tech-tags">
-      <span class="tag">Groq / Llama 3.1</span><span class="tag">Python</span><span class="tag">Streamlit</span><span class="tag">YAML</span><span class="tag">Keyword Routing</span><span class="tag">Eval Framework</span>
     </div>
   </div>
 
